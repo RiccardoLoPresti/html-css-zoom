@@ -118,16 +118,18 @@ footer{
   align-items: center;
 }
 
+footer button {
+  background-color: unset;
+  border: none;
+  cursor: pointer;
+}
+
 footer p{
   font-size:0.9rem;
 }
 
 footer .cel{
   margin-right: 20px;
-}
-
-footer .cel, footer .video{
-  cursor: pointer;
 }
 
 footer .cel i:first-child{
@@ -149,15 +151,14 @@ footer .chevron{
   margin-right: 40px;
 }
 
-footer .end button{
+footer .end #meeting{
 color: red;
 background-color: #4a4a4a;
 padding: 32px 20px;
 border: none;
 }
 
-footer .end button:hover{
+footer .end #meeting:hover{
   background-color: #797979;
   cursor: pointer;
 }
-
