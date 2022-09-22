@@ -48,6 +48,14 @@ img{
   position: relative;
 }
 
+.active{
+  filter: grayscale(100%) brightness(60%) sepia(300%) hue-rotate(50deg) saturate(500%);
+}
+
+.p-left{
+  padding-left: 10px;
+}
+
 /* HEADER */
 header .view{
   justify-content: end;
@@ -103,3 +111,52 @@ main .main-wrap span::before{
   font-family: Fontawesome;
   content: '\f131';
 }
+
+/* FOOTER */
+footer{
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer p{
+  font-size:0.9rem;
+}
+
+footer .cel{
+  margin-right: 20px;
+}
+
+footer .cel, footer .video{
+  cursor: pointer;
+}
+
+footer .cel i:first-child{
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+  width:100%;
+  text-align:center;
+}
+
+footer .cel i:last-child{
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 20px);
+  transform: translate(-50%, -50%);
+  font-size: 0.7rem;
+}
+
+footer .chevron{
+  margin-right: 40px;
+}
+
+footer .end button{
+color: red;
+background-color: #4a4a4a;
+padding: 32px;
+border: none;
+}
+
+footer .end button:hover{
+  background-color: #797979;
+}
+
