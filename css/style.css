@@ -158,5 +158,6 @@ border: none;
 
 footer .end button:hover{
   background-color: #797979;
+  cursor: pointer;
 }
 
