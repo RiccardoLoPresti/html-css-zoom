@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body{
+body, button{
   font-family: Arial, Helvetica, sans-serif;
   color: white;
 }
@@ -64,7 +64,7 @@ header .view{
   margin-right: 10px;
 }
 
-header .view span, header .view i{
+header .view button{
   background-color: #4a4a4a;
   padding: 5px;
   border-radius: 5px;
@@ -80,7 +80,7 @@ header .view i{
   line-height: 16px;
 }
 
-header .view span::before{
+header .view button:first-child::before {
   font-family: Fontawesome;
   content: '\f58d';
 }
@@ -89,12 +89,12 @@ header .view span::before{
 main .main-wrap{
   justify-content: center;
   padding: 40px 70px;
-  gap: 5px;
+  gap: 8px;
 }
 
 main .card{
   margin-bottom: 5px;
-  width: calc(100% / 7 - 5px);
+  width: calc(100% / 7 - 8px);
   min-width: 200px;
 }
 
@@ -152,7 +152,7 @@ footer .chevron{
 footer .end button{
 color: red;
 background-color: #4a4a4a;
-padding: 32px;
+padding: 32px 20px;
 border: none;
 }
 
