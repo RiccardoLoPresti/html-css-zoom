@@ -49,7 +49,7 @@ img{
 }
 
 .active{
-  filter: grayscale(100%) brightness(60%) sepia(300%) hue-rotate(50deg) saturate(500%);
+  color: #4bc800;
 }
 
 .p-left{
@@ -128,6 +128,10 @@ footer p{
   font-size:0.9rem;
 }
 
+footer .mic-video, .mid{
+  flex-shrink: 0;
+}
+
 footer .cel{
   margin-right: 20px;
 }
@@ -151,7 +155,7 @@ footer .chevron{
   margin-right: 40px;
 }
 
-footer .end #meeting{
+footer .end #end-meeting{
 color: red;
 background-color: #4a4a4a;
 padding: 0px 20px;
@@ -159,7 +163,7 @@ border: none;
 height: 80px;
 }
 
-footer .end #meeting:hover{
+footer .end #end-meeting:hover{
   background-color: #797979;
   cursor: pointer;
 }
